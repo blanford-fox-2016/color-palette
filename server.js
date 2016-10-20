@@ -1,5 +1,7 @@
-var express = require("express");
-var app = express();
+"use strictnpm"
+let express = require("express");
+let app = express();
+let getPallete = require("./lib/get_pallete")
 
 app.set('view engine', 'jade');
 
